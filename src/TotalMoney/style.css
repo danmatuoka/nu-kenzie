@@ -1,0 +1,44 @@
+.total-money {
+  padding: 1.1rem;
+  border: 1px solid var(--color-grey-2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+
+  animation: swing-in 0.5s linear both;
+}
+
+.total-money div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-money #valor-soma {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.total-money #footer-saldo {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+@keyframes swing-in {
+  0% {
+    transform: rotateX(-150deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}

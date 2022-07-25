@@ -1,0 +1,43 @@
+.header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-card p {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.cont-btn-header-card {
+  display: flex;
+  gap: 20px;
+}
+
+.cont-btn-header-card .btn-todos {
+  padding: 0.7rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cont-btn-header-card .btn-ent {
+  border: none;
+  padding: 0.7rem;
+  font-size: 1rem;
+  cursor: pointer;
+
+  border-radius: 8px;
+
+  background: var(--color-grey-2);
+}
+
+@media screen and (max-width: 768px) {
+  .header-card {
+    flex-wrap: wrap;
+  }
+}

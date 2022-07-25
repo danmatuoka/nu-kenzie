@@ -1,0 +1,8 @@
+.container-empty {
+  display: flex;
+  border-radius: 5px;
+}
+
+.emptyCard {
+  width: 100%;
+}
