@@ -10,10 +10,8 @@ import "./reset.css";
 import "./App.css";
 
 function App() {
-  const [listTransactions, setListTransactions] = useState([]);
-
   const [login, setLogin] = useState(false);
-
+  const [listTransactions, setListTransactions] = useState([]);
   const [filterTransactions, setFilterTransactions] = useState([]);
 
   const handleLogin = () => {

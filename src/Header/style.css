@@ -13,3 +13,8 @@
 
   background: var(--color-grey-2);
 }
+
+.btn-inicio:hover {
+  background: var(--color-grey-3);
+  color: #fff;
+}

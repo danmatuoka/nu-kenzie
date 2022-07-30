@@ -18,15 +18,15 @@ const List = ({
     </>
   ) : (
     <>
-      {filterTransactions.length > 0 ? (
+      {filterTransactions.length !== 0 ? (
         <>
           {filterTransactions.map((transaction, index) => (
             <Card
               transaction={transaction}
               key={index}
               id={index}
-              listTransactions={listTransactions}
-              setListTransactions={setListTransactions}
+              listTransactions={filterTransactions}
+              setListTransactions={setFilterTransactions}
             />
           ))}
         </>

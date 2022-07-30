@@ -25,6 +25,10 @@
   cursor: pointer;
 }
 
+.cont-btn-header-card .btn-todos:focus {
+  background: var(--color-primary-2);
+}
+
 .cont-btn-header-card .btn-ent {
   border: none;
   padding: 0.7rem;
@@ -34,6 +38,11 @@
   border-radius: 8px;
 
   background: var(--color-grey-2);
+}
+
+.cont-btn-header-card .btn-ent:focus {
+  background: var(--color-grey-3);
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {

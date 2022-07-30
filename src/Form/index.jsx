@@ -23,6 +23,7 @@ const Form = ({ listTransactions, setListTransactions }) => {
       <div className="container-descricao">
         <p>Descrição</p>
         <input
+          required
           id="input-descricao"
           type="text"
           placeholder="Digite aqui sua descrição"
@@ -35,6 +36,7 @@ const Form = ({ listTransactions, setListTransactions }) => {
         <section className="valor">
           <p>Valor</p>
           <input
+            required
             type="number"
             onChange={(event) => setValor(event.target.value)}
           />
