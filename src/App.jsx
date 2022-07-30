@@ -1,9 +1,9 @@
-import Header from "./Header";
-import Form from "./Form";
-import List from "./List";
-import TotalMoney from "./TotalMoney";
-import BtnCard from "./BtnCard";
-import Homepage from "./Homepage";
+import Header from "./Components/Header";
+import Homepage from "./Components/Homepage";
+import Form from "./Components/Form";
+import List from "./Components/List";
+import TotalMoney from "./Components/TotalMoney";
+import BtnCard from "./Components/BtnCard";
 
 import { useState } from "react";
 import "./reset.css";
